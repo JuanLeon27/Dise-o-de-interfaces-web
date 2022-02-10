@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos/estilo.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Khula">
+    <title>Ekommart</title>
+    <style>
+        body {
+            font-family: 'Khula';
+        }
+    </style>
+</head>
+
+<body>
+    <!--Header-->
+    <header>
+        <section id="letrasEnegrita">
+            <!--Primera barra-->
+            <div class="flex-container" id="tamanyo1">
+                <div>
+                    <!-- Texto del principio-->
+                    <div>
+                        <div class="letraBlanca">Black Friday. </div>
+                        <p class="letraRoja margen_izq_bf" header-texto> Save up to 50%!</p>
+
+                    </div>
+                    <div class="separador_vertical"></div>
+                    <!--<div class="separador_vertical"></div>->
+                    <div class="cont-temporizador">
+                        <!--Cuenta regresiva-->
+
+                    <p class="letraBlanca">Deal ends: </p>
+                    <div class="bloque ">
+                        <span class="dias header-texto" id="dias">03<span class="letraRoja">d</span></span>
+                    </div>
+                    <div class="bloque ">
+                        <span class="horas header-texto" id="horas">16<span class="letraRoja">h</span></span>
+                    </div>
+                    <div class="bloque ">
+                        <span class="minutos header-texto" id="minutos">31<span class="letraRoja">m</span></span>
+                    </div>
+                    <div class="bloque ">
+                        <span class="segundos header-texto" id="segundos">48<span class="letraRoja">s</span></span>
+                    </div>
+                </div>
+                <div class="separador_vertical"></div>
+
+                <div>
+                    <!--Boton-->
+                    <button class="botonPrimero">Learn More</button>
+                </div>
+            </div>
+            </div>
+        </section>
+
+        <section class="margenPrueba" id="letrasEnegrita">
+            <!--Segunda barra-->
+            <div class="cabecera2">
+                <div>
+                    <!--Logo Ekommart-->
+                    <a href="index.html"><img id="logo" src="imagen/logo_ekommart.png" alt="Logo Ekommart"></a>
+                </div>
+                <!--Buscador-->
+                <div class="columnas-2 quitar_margen2 cabecera_info">
+                    <div>
+                        <div>
+                            <img class="lupa" src="imagen/LupaBusqueda.jpg" alt="lupa">
+                            <input type="search" id="buscador" placeholder="Search products…">
+                            <button type="submit" id="botonSearch" value="Search">Search</button>
+                        </div>
+                        <div class="container-flex letrasEnegrita posicion1">
+                            <!--parte 3 de la barra 2-->
+                            <div>
+                                <ul class="listaSinEstilo">
+                                    <li>
+                                        <p>+84 800 456 789</p>
+                                    </li>
+                                    <li>
+                                        <p class="letraGrises">Call us Free</p>
+                                    </li>
+                                </ul>
+                                <div class="separador_vertical"></div>
+                            </div>
+                            <div>
+                                <ul class="listaSinEstilo">
+                                    <li>
+                                        <p>FREE SHIPPING</p>
+                                    </li>
+                                    <li>
+                                        <p class="letraGrises">on orders over $150.00</p>
+                                    </li>
+                                </ul>
+                                <div class="separador_vertical"></div>
+                                <!--iconos-->
+                                <div class="iconos">
+                                    <a href="#"><img src="imagen/perfil.png" class="perfil.png" alt=""></a>
+                                    <a href="#"><img src="imagen/corazon.png" class="corazon.png" alt=""></a>
+                                    <a href="#"><img src="imagen/cesta.png" class="cesta.png" alt=""></a>
+                                    <p class="iconos letrasEnegrita">$0.00</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <!--NAV-->
+                        <nav>
+                            <ul class="ajustesNAV">
+                                <li>
+                                    <a href="index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="noticias.html">Noticias</a>
+                                </li>
+                                <li>
+                                    <a href="galeria.html">Galeria</a>
+                                </li>
+                                <li>
+                                    <a href="noticias.html">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="mapa.html">Mapa</a>
+                                </li>
+                                <li>
+                                    <a href="contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+
+    <!-- Main-->
+    <main>
+        <section>
+            <!-- primer section-->
+            <div class="slide">
+                <!-- Slider-->
+
+                <div class="slide-inner">
+                    <input class="slide-open" type="radio" id="slide-1" name="slide" aria-hidden="true" hidden=""
+                        checked="checked">
+                    <div class="slide-item">
+                        <!--<div>-->
+
+                        <img src="imagen\piernasSlider.png">
+
+                        <!--<div class="posicionamiento">
+                                <p>NIKE - NOVEDADES</p>
+                                <p>AIR MAX PEGASUS 35 ID</p>
+                                <p>$190</p>
+                                <button>Compra ahora</button>
+                            </div>-->
+
+                        <!-- </div>-->
+                    </div>
+
+                    <input class="slide-open" type="radio" id="slide-2" name="slide" aria-hidden="true" hidden="">
+                    <div class="slide-item">
+                        <img src="imagen\zapatillasSlider.png">
+                    </div>
+
+                    <label for="slide-3" class="slide-control prev control-1">‹</label>
+                    <label for="slide-2" class="slide-control next control-1">›</label>
+                    <label for="slide-1" class="slide-control prev control-2">‹</label>
+                    <label for="slide-3" class="slide-control next control-2">›</label>
+
+                </div>
+            </div>
+        </section><!-- primer section final-->
+        <section>
+            <!-- segundo section-->
+            <div>
+                <div class="posicionAbsoluta container-flex">
+                    <div class="zoom"><img src="imagen\FondoZapatillasNaranja.jpg" alt="FondoZapatillasNaranja.jpg">
+                        <div class="posicionAbsoluta2">
+                            <div class="fondoDescuento margenDescuento" id="letrasEnegrita">40% OFF</div>
+                            <div class="letraBlanca margenDescuento tamanyoNumero" id="letrasEnegrita">SRTYLE MEETS
+                                SUBTANCE</div>
+                            <div class="letraBlanca margenDescuento">Breatheble perforated toe stiched stealth</div>
+                            <button class="margenDescuento">Find Your Shoe</button>
+                        </div>
+                    </div>
+                    <div class="zoom"><img src="imagen\chicaDescansando.jpg" alt="chicaDescansando.jpg">
+                        <div class="posicionAbsoluta3">
+                            <div class="fondoDescuento2 margenDescuento" id="letrasEnegrita">50% OFF</div>
+                            <div class="letraBlanca margenDescuento tamanyoNumero maxWisImagen" id="letrasEnegrita">
+                                ENERGY TAKES OVER</div>
+                            <button class="margenDescuento">View Campaign</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> <!-- segundo section final-->
+        <section>
+            <!-- tercero section-->
+            <div class="margenesTitulo">
+                <h1 class="letrasEnegrita tamanyoNumero">FEATURE PRODUCTS</h1>
+                <p>Visit our shop to see amazing products</p>
+            </div>
+            <div>
+                <div class="productosGrid">
+                    <div class="textGrid borderDIV centrarMargenes"><img src="imagen\nike_daybreak.jpg"
+                            alt="nike_daybreak.jpgn">
+                        <div class="centrarMargenes">
+                            <p class="letraGrises">Shoes</p>
+                            <p id="letrasEnegrita">Nike Daybreak</p>
+                            <p class="letraRoja" id="letrasEnegrita">$145.93</p>
+                            <button class="botonNegro">Buy Product</button>
+                        </div>
+                    </div>
+                    <div class="textGrid borderDIV centrarMargenes"><img src="imagen\Nike_React_Metcon_AMP.jpg"
+                            alt="Nike_React_Metcon_AMP.jpgk">
+                        <div class="centrarMargenes">
+                            <p class="letraGrises">Shoes</p>
+                            <p id="letrasEnegrita">Nike React Metcon AMP</p>
+                            <p class="letraRoja" id="letrasEnegrita">$180.22</p>
+                            <button class="botonNegro">Read More</button>
+                        </div>
+                    </div>
+                    <div class="textGrid borderDIV centrarMargenes"><img src="imagen\Nike_MX_720_818.jpg"
+                            alt="Nike_MX_720_818.jpg">
+                        <div class="centrarMargenes">
+                            <p class="letraGrises">Shoes</p>
+                            <p id="letrasEnegrita">Nike MX-720-818</p>
+                            <p class="letraRoja" id="letrasEnegrita">$193.97</p>
+                            <button class="botonNegro">Buy Product</button>
+                        </div>
+                    </div>
+                    <div class="textGrid borderDIV centrarMargenes"><img src="imagen\Nike_Shox_TL_Nova_SP.jpg"
+                            alt="Nike_Shox_TL_Nova_SP.jpg">
+                        <div class="centrarMargenes">
+                            <p class="letraGrises">Shoes</p>
+                            <p id="letrasEnegrita">Nike Shox TL Nova SP</p>
+                            <p class="letraRoja" id="letrasEnegrita">$126.00–$145.00</p>
+                            <button class="botonNegro">Select Options</button>
+                        </div>
+                    </div>
+                    <div class="textGrid borderDIV centrarMargenes"><img src="imagen\Nike_Free_RN_Flyknit_3.0.jpg"
+                            alt="Nike_Free_RN_Flyknit_3.0.jpg">
+                        <div class="centrarMargenes">
+                            <p class="letraGrises">Shoes</p>
+                            <p id="letrasEnegrita">Nike Free RN Flyknit 3.0</p>
+                            <p class="letraRoja" id="letrasEnegrita">$107.18</p>
+                            <button class="botonNegro">Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="textGrid borderDIV centrarMargenes"><img src="imagen\Kyrie_6_By_You.jpg"
+                            alt="Kyrie_6_By_You.jpg">
+                        <div class="centrarMargenes">
+                            <p class="letraGrises">Shoes</p>
+                            <p id="letrasEnegrita">Kyrie 6 By You</p>
+                            <p class="letraRoja" id="letrasEnegrita">$190.85</p>
+                            <button class="botonNegro">Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="textGrid borderDIV centrarMargenes"><img src="imagen\Jordan_Why_Not_Zer03_PF.jpg"
+                            alt="Jordan_Why_Not_Zer03_PF.jpg">
+                        <div class="centrarMargenes">
+                            <p class="letraGrises">Shoes</p>
+                            <p id="letrasEnegrita">Jordan ‘Why Not?’ Zer0.3 PF</p>
+                            <p class="letraRoja" id="letrasEnegrita">$191.23</p>
+                            <button class="botonNegro">Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="textGrid borderDIV centrarMargenes"><img src="imagen\Nike_Air_Force_1_07_LV8.jpg"
+                            alt="Nike_Air_Force_1_07_LV8.jpg">
+                        <div class="centrarMargenes">
+                            <p class="letraGrises">Shoes</p>
+                            <p id="letrasEnegrita">Nike Air Force 1 ’07 LV8</p>
+                            <p class="letraRoja" id="letrasEnegrita">$107.18–$180.22</p>
+                            <button class="botonNegro">View Products</button>
+                        </div>
+                    </div>
+                    <div class="textGrid borderDIV centrarMargenes"><img src="imagen\Air_Jordan_1_Mid_SE.jpg"
+                            alt="Air_Jordan_1_Mid_SE.jpg">
+                        <div class="centrarMargenes">
+                            <p class="letraGrises">Shoes</p>
+                            <p id="letrasEnegrita">Air Jordan 1 Mid SE</p>
+                            <p class="letraRoja" id="letrasEnegrita">$100.16</p>
+                            <button class="botonNegro">Add To Cart</button>
+                        </div>
+                    </div>
+                    <div class="textGrid borderDIV centrarMargenes"><img src="imagen\Kyrie_6_EP_Chinese_New_Year.jpg"
+                            alt="Kyrie_6_EP_Chinese_New_Year.jpg">
+                        <div class="centrarMargenes">
+                            <p class="letraGrises">Shoes</p>
+                            <p id="letrasEnegrita">Kyrie 6 EP ‘Chinese New Year’</p>
+                            <p class="letraRoja" id="letrasEnegrita">$150.00</p>
+                            <button class="botonNegro">Add To Cart</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section><!-- tercero section final-->
+        <section>
+            <div class="imagenesGrid2">
+                <div class="zoom imagenesGridDoble">
+                    <img src="imagen\fondoSalto.jpg" alt="fondoSalto.jpg">
+                </div>
+                <div class="zoom imagenesGridDoble2">
+                    <img src="imagen\zapatillasAmarillas.jpg" alt="zapatillasAmarillas.jpg">
+                </div>
+                <div class="zoom imagenesGridDoble3">
+                    <img src="imagen\zapatillasAzules.jpg" alt="zapatillasAzules.jpg">
+
+                </div>
+            </div>
+
+            <!-- cuarto section-->
+          
+        </section><!-- cuarto section final-->
+        </section>
+        <section>
+            <!-- quinto section-->
+            <h1>LATEST NEWS</h1>
+            <p>Read our blog</p>
+            <div>
+                <img src="" alt="">
+                <img src="" alt="">
+                <img src="" alt="">
+            </div>
+        </section><!-- quinto section final-->
+
+        <section>
+            <!-- sexto section-->
+            <div>
+                <img class="margenesImagenes" src="imagen/comillas.png" alt="comillas.png">
+            </div>
+            <div class="centrarMargenes maxWis6">
+                <p>Grat for swimming and especially if there are rocks and uneven terrain. They
+                    stay snug on your feet while swimming and dry quickly. I wear them on my
+                    offshore fishing boat. Very comfortable.</p>
+                <p>STEPHEN TINDLE</p>
+            </div>
+        </section><!-- sexto section final-->
+
+        <section>
+            <!-- section multimedia-->
+            <div class="fondoNegro">
+                <div>
+                    <video id="video1" src="imagen/video_de_imagindragon.mp4" controls muted loop></video>
+                </div>
+                <div>
+                    <svg height="130" width="500">
+                        <defs>
+                            <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+                                <stop offset="0%" style="stop-color:rgb(206, 42, 42);stop-opacity:1" />
+                                <stop offset="100%" style="stop-color:rgb(103, 27, 27);stop-opacity:1" />
+                            </linearGradient>
+                        </defs>
+                        <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+                        <text fill="#ffffff" font-size="45" font-family="comic sans" x="50" y="86">JASL</text>
+                    </svg>
+                </div>
+                <div id="audio"><audio src="imagen/audio Completo.mp3" controls></audio>
+
+                </div>
+            </div>
+        </section><!-- section multimedia final-->
+        <div class="separador_horizontal_grande"></div>
+        <section>
+            <!-- septimo section-->
+            <div class="containerFlexFotos margenesImagenes">
+                <img class="margenesImagenes2" src="imagen\chavy.png" alt="imagen\chavy.png">
+                <img class="margenesImagenes2" src="imagen\power.png" alt="imagen\power.png">
+                <img class="margenesImagenes2" src="imagen\hardcore.png" alt="imagen\hardcore.png">
+                <img class="margenesImagenes2" src="imagen\fitness.png" alt="imagen\fitness.png">
+                <img class="margenesImagenes2" src="imagen\fishing.png" alt="imagen\fishing.png">
+            </div>
+
+        </section><!-- septimo section final-->
+        <section>
+            <!-- octavo section-->
+            <div class="containerFlexFotos ">
+                <img class="margenModelos" src="imagen\modelo1.jpg" alt="modelo1.jpg">
+                <img class="margenModelos" src="imagen\modelo2.jpg" alt="modelo2.jpg">
+                <img class="margenModelos" src="imagen\modelo3.jpg" alt="modelo3.jpg">
+                <img class="margenModelos" src="imagen\modelo4.jpg" alt="modelo4.jpg">
+                <img class="margenModelos" src="imagen\modelo5.jpg" alt="modelo5.jpg">
+                <img class="margenModelos" src="imagen\modelo6Rojo.png" alt="modelo6Rojo.png">
+
+            </div>
+
+        </section><!-- octavo section final-->
+    </main>
+
+
+    <!--Footer-->
+    <footer class="fondoNegro">
+        <!--Primera barra-->
+        <section>
+            <div class="iconos container-flex margenCentrar margenPrincipal">
+
+                <div class="containerFlexFooter">
+                    <div class="margen_dere_bf">
+                        <a href="#"><img src="imagen/camion.png" class="perfil.png" alt=""></a>
+                    </div>
+                    <div>
+                        <p class="letraBlanca" id="letrasEnegrita"><span class="letraRoja">FREE</span> DELIVERY</p>
+                        <p class="letraGrises">When orderfrom $500.</p>
+                    </div>
+                </div>
+                <div class="containerFlexFooter">
+                    <div class="margen_dere_bf">
+                        <a href="#"><img src="imagen/billete.png" class="perfil.png" alt=""></a>
+                    </div>
+                    <div>
+                        <p class="letraBlanca" id="letrasEnegrita"><span class="letraRoja">100% REFUND</span> OF MONEY
+                        </p>
+
+                        <p class="letraGrises">14-days of complanint</p>
+                    </div>
+                </div>
+                <div class="containerFlexFooter">
+                    <div class="margen_dere_bf">
+                        <a href="#"><img src="imagen/copa.png" class="perfil.png" alt=""></a>
+                    </div>
+                    <div>
+                        <p class="letraBlanca" id="letrasEnegrita"><span class="letraRoja">QUALITY</span> INSPETIONS</p>
+                        <p class="letraGrises">Over 10.000 products</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Primera barra final-->
+        <div class="separador_horizontal_grande"></div>
+        <!--Segunda barra-->
+        <section>
+            <div class="container-flex margenCentrar margenPrincipal margenBarra2 ">
+                <div>
+                    <div class="letraBlanca" id="letrasEnegrita">CONTACT US</div>
+                    <div class="maxWis">
+                        <p class="letraGrises">If you have any question, please contact us at <span
+                                class="letraRoja">support@example.com</span></p>
+                    </div>
+
+                    <div>
+                        <img src="imagen/contacto.png" alt="contacto.png">
+                        <p class="letraBlanca imagenContactoFooter numeroContacto">+048 <span
+                                class="tamanyoNumero">800456789</span></p>
+
+                    </div>
+                </div>
+                <div>
+                    <div class="letraBlanca" id="letrasEnegrita">STORE LOCATION</div>
+                    <div>
+                        <p class="letraGrises maxWis">Box 565, Charlestown, Nevis, West Indies,Caribbean</p>
+                    </div>
+                    <div class="maxWisStore">
+                        <p class="letraBlanca "><span class="letraGrises">Monday-Friday: </span> 8am-4am <span
+                                class="letraGrises">Saturday:</span> 9am-5pm</p>
+                    </div>
+                </div>
+                <div>
+                    <div class="letraBlanca" id="letrasEnegrita">CATEGORIES</div>
+                    <div>
+                        <ul class="listaSinEstilo listasSinMargen letraGrises margenCategories margenUlLi">
+                            <li>For Men</li>
+                            <li>For Woman</li>
+                            <li>Accessories</li>
+                            <li>Collections</li>
+                            <li>Other</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="separador_vertical_grande"></div>
+                <div>
+                    <div class="letraBlanca" id="letrasEnegrita">NEWSLETTER</div>
+                    <div>
+                        <p class="letraGrises maxWisNewsletter">Subscribe to the weekly newsletter for all the latest
+                            updates</p>
+                    </div>
+                    <div>
+                        <input type="search" id="email" placeholder="Your Email...">
+                        <button type="submit" id="botonEmail" value="Search">Subscribe</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Segunda barra final-->
+        <div class="separador_horizontal_grande"></div>
+        <!--Tercera barra-->
+        <section>
+            <div class="container-flex margenBarra3 margenPrincipal">
+                <div>
+                    <p class="letraGrises">Copyright © 2022 <span class="letraRoja">Ekommart</span>. All Rights
+                        Reserved.</p>
+                </div>
+                <div class="iconos-social">
+                    <a href="#"><img src="imagen/facebookB.png" alt="facebook.png"></a>
+                    <a href="#"><img src="imagen/twitterB.png" alt="twitter.png"></a>
+                    <a href="#"><img src="imagen/linkedinB.png" alt="linkedin.png"></a>
+                    <a href="#"><img src="imagen/instagramB.png" alt="instagram.png"></a>
+                </div>
+                <div class="iconos-social">
+                    <a href="#"><img src="imagen/visa.png" alt="visa.png"></a>
+                    <a href="#"><img src="imagen/master.jpg" alt="masterCard.jpg"></a>
+                    <a href="#"><img src="imagen/paypal.png" alt="paypal.png"></a>
+                    <a href="#"><img src="imagen/skrill.jpg" alt="skrill.jpg"></a>
+                    <a href="#"><img src="imagen/maestro.jpg" alt="maestro.jpg"></a>
+                    <a href="#"><img src="imagen/visaElectron.png" alt="visaElectron.png"></a>
+
+                </div>
+            </div>
+        </section>
+        <!--Tercera barra final-->
+    </footer>
+</body>
+
+</html>
